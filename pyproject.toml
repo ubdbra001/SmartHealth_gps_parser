@@ -19,3 +19,12 @@ dev = [
 get-lsoa = [
     "requests>=2.32.4",
 ]
+synthetic = [
+    "folium>=0.20.0",
+    "mapclassify>=2.10.0",
+    "matplotlib>=3.10.5",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.13,<0.9.0"]
+build-backend = "uv_build"
